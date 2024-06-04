@@ -1,5 +1,5 @@
 {% set name = "securesystemslib" %}
-{% set version = "0.30.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/securesystemslib-{{ version }}.tar.gz
-  sha256: 6a769e4816921ac4059c8c149ab5f69ed7cd92859857f0e17b67a3dd7bbee866
+  sha256: 27143a8e04b5573636f260f21d7e26b48bcedcf394e6f74ec31e9a5287e0c38b
 
 build:
   noarch: python
