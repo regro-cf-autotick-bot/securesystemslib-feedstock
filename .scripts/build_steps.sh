@@ -95,6 +95,8 @@ if [[ "${BUILD_WITH_CONDA_DEBUG:-0}" == 1 ]]; then
 
     # Drop into an interactive shell
     /bin/bash
+    touch "${FEEDSTOCK_ROOT}/build_artifacts/conda-forge-build-done-${CONFIG}"
+    exit 0
 fi
 
 # Build the recipe
